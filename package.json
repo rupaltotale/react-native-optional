@@ -1,6 +1,6 @@
 {
   "name": "react-native-optional",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react native utility to render components conditionally",
   "main": "src/index.js",
   "scripts": {
@@ -26,7 +26,9 @@
     "babel-plugin-syntax-jsx": "^6.18.0"
   },
   "babel": {
-     "plugins" : ["./babel-plugin-transform-react-optional.js"]
+    "plugins": [
+      "./babel-plugin-transform-react-optional.js"
+    ]
   },
   "author": "Rupal Totale <rupaltotale@gmail.com>",
   "license": "ISC"
