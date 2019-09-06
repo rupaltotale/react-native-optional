@@ -37,6 +37,7 @@
   "bugs": {
     "url": "https://github.com/rupaltotale/react-native-optional/issues"
   },
+  "homepage": "https://github.com/rupaltotale/react-native-optional#readme",
   "author": "Rupal Totale <rupaltotale@gmail.com>",
   "license": "ISC"
 }
