@@ -1,0 +1,33 @@
+{
+  "name": "react-native-optional",
+  "version": "1.0.0",
+  "description": "A react native utility to render components conditionally",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "conditional",
+    "rendering"
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "16.8.6",
+    "react-native": "git://github.com/skillz/react-native.git#ce856ba9ae2ca0a64afaeb130817023a5718ef45"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@types/react": "^16.8.19",
+    "@types/react-native": "^0.57.60",
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-syntax-jsx": "^6.18.0"
+  },
+  "babel": {
+     "plugins" : ["./babel-plugin-transform-react-optional.js"]
+  },
+  "author": "Rupal Totale <rupaltotale@gmail.com>",
+  "license": "ISC"
+}
