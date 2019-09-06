@@ -30,6 +30,13 @@
       "./babel-plugin-transform-react-optional.js"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rupaltotale/react-native-optional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rupaltotale/react-native-optional/issues"
+  },
   "author": "Rupal Totale <rupaltotale@gmail.com>",
   "license": "ISC"
 }
