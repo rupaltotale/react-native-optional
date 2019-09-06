@@ -3,7 +3,7 @@
 
 A react native utility to render component(s) conditionally in JSX.
 
-The functionality for this was written by [Greg Herlihy](https://github.com/greghe), modified and open-sourced by [Rupal Totale](https://github.com/rupaltotale/) at [Skillz](https://www.skillz.com/). 
+This functionality was developed and written by [Greg Herlihy](https://github.com/greghe), and modified and open-sourced by [Rupal Totale](https://github.com/rupaltotale/) at [Skillz](https://www.skillz.com/). 
 
 ## Getting Started
 
