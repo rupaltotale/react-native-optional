@@ -28,7 +28,7 @@ export default class Example extends Component {
 };
 ```
 
-### Example
+### Involved Example
 
 ```js
 import React from 'react';
@@ -38,11 +38,34 @@ import {StyleSheet, View, Text} from 'react-native';
 import Optional from 'react-native-optional';
 
 const App = () => {
-  const check = true;
+  const checkWithBooleanTrue = true;
+  const checkWithBooleanFalse = false;
+  const checkWithIntTrue = 1;
+  const checkWithObjectFalse = null;
   return (
     <View style={styles.sectionContainer}>
-      <Optional test={check}>
-        <Text style={styles.sectionTitle}>This should show</Text>
+      <Optional test={checkWithBooleanTrue}>
+        <Text style={styles.sectionTitle}>
+          This should show (checkWithBooleanTrue)
+        </Text>
+      </Optional>
+
+      <Optional test={checkWithBooleanFalse}>
+        <Text style={styles.sectionTitle}>
+          This should NOT show (checkWithBooleanFalse)
+        </Text>
+      </Optional>
+
+      <Optional test={checkWithIntTrue || checkWithObjectFalse}>
+        <Text style={styles.sectionTitle}>
+          This should show (checkWithIntTrue || checkWithObjectFalse)
+        </Text>
+      </Optional>
+
+      <Optional test={checkWithIntTrue && checkWithObjectFalse}>
+        <Text style={styles.sectionTitle}>
+          This should NOT show (checkWithIntTrue && checkWithObjectFalse)
+        </Text>
       </Optional>
     </View>
   );
@@ -51,12 +74,12 @@ const App = () => {
 const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 50,
-    paddingHorizontal: 24,
+    padding: 20,
   },
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: '600',
-    alignSelf: 'center',
+    marginBottom: 30,
   },
 });
 
