@@ -85,6 +85,7 @@ const styles = StyleSheet.create({
 
 export default App;
 ```
+![iOS Example](./OptionalExample.png)
 ### Props
 
 | Name                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Details                  |
